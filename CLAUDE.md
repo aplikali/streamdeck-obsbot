@@ -61,7 +61,7 @@ The watch command includes `streamdeck restart com.aplikali.obsbot` for automati
 src/
 ├── plugin.ts              # Main plugin entry point
 └── actions/
-    └── increment-counter.ts
+    └── preset-action.ts
 
 com.aplikali.obsbot.sdPlugin/
 ├── manifest.json           # Plugin configuration

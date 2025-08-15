@@ -1,14 +1,14 @@
 {
 	"Name": "OBSBOT",
-	"Version": "0.1.0.0",
+	"Version": "0.1.0",
 	"Author": "Aplikali",
 	"Actions": [
 		{
-			"Name": "Action",
-			"UUID": "com.aplikali.obsbot.increment",
+			"Name": "Preset",
+			"UUID": "com.aplikali.obsbot.preset",
 			"Icon": "imgs/actions/counter/icon",
-			"Tooltip": "Displays a count, which increments by one on press.",
-			"PropertyInspectorPath": "ui/increment-counter.html",
+			"Tooltip": "Activate a preset on the OBSBOT camera",
+			"PropertyInspectorPath": "ui/preset-action.html",
 			"Controllers": [
 				"Keypad"
 			],
