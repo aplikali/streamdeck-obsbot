@@ -4,24 +4,8 @@
 	"Author": "Aplikali",
 	"Actions": [
 		{
-			"Name": "Counter",
+			"Name": "Action",
 			"UUID": "com.aplikali.obsbot.increment",
-			"Icon": "imgs/actions/counter/icon",
-			"Tooltip": "Displays a count, which increments by one on press.",
-			"PropertyInspectorPath": "ui/increment-counter.html",
-			"Controllers": [
-				"Keypad"
-			],
-			"States": [
-				{
-					"Image": "imgs/actions/counter/key",
-					"TitleAlignment": "middle"
-				}
-			]
-		},
-		{
-			"Name": "De-Counter",
-			"UUID": "com.aplikali.obsbot.decrement",
 			"Icon": "imgs/actions/counter/icon",
 			"Tooltip": "Displays a count, which increments by one on press.",
 			"PropertyInspectorPath": "ui/increment-counter.html",
@@ -36,7 +20,7 @@
 			]
 		}
 	],
-	"Category": "OBSBOT",
+	"Category": "OBSBOT by Aplikali",
 	"CategoryIcon": "imgs/plugin/category-icon",
 	"CodePath": "bin/plugin.js",
 	"Description": "OBSBOT working plugin",
