@@ -60,8 +60,14 @@ The watch command includes `streamdeck restart com.aplikali.obsbot` for automati
 ```
 src/
 ├── plugin.ts              # Main plugin entry point
-└── actions/
-    └── increment-counter.ts
+├── actions/
+│   └── trigger-preset-action.ts
+├── obsbot/
+│   ├── index.ts            # OBSBOT exports
+│   └── obsbot-controller.ts # OBSBOT camera controller
+└── osc/
+    ├── index.ts            # OSC exports
+    └── osc-controller.ts   # OSC communication using dgram + osc-min
 
 com.aplikali.obsbot.sdPlugin/
 ├── manifest.json           # Plugin configuration
