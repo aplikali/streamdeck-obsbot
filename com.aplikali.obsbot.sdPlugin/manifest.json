@@ -5,10 +5,10 @@
 	"Actions": [
 		{
 			"Name": "Preset",
-			"UUID": "com.aplikali.obsbot.preset",
+			"UUID": "com.aplikali.obsbot.trigger-preset",
 			"Icon": "imgs/actions/counter/icon",
 			"Tooltip": "Activate a preset on the OBSBOT camera",
-			"PropertyInspectorPath": "ui/preset-action.html",
+			"PropertyInspectorPath": "ui/trigger-preset-action.html",
 			"Controllers": [
 				"Keypad"
 			],
